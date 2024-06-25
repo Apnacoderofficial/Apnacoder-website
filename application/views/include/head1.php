@@ -14,16 +14,16 @@
       <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.svg" />
 
       <!-- CSS here -->
-      <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-      <link rel="stylesheet" href="assets/css/font-awesome-pro.min.css" />
-      <link rel="stylesheet" href="assets/css/animate.min.css" />
-      <link rel="stylesheet" href="assets/css/flaticon_webency.css" />
-      <link rel="stylesheet" href="assets/css/odometer.min.css" />
-      <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-      <link rel="stylesheet" href="assets/css/owl.carousel.css" />
-      <link rel="stylesheet" href="assets/css/swiper.min.css" />
-      <link rel="stylesheet" href="assets/css/meanmenu.css" />
-      <link rel="stylesheet" href="assets/css/main.css" />
+      <link rel="stylesheet" href="<?=base_url()?>assets/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="<?=base_url()?>assets/css/font-awesome-pro.min.css" />
+      <link rel="stylesheet" href="<?=base_url()?>assets/css/animate.min.css" />
+      <link rel="stylesheet" href="<?=base_url()?>assets/css/flaticon_webency.css" />
+      <link rel="stylesheet" href="<?=base_url()?>assets/css/odometer.min.css" />
+      <link rel="stylesheet" href="<?=base_url()?>assets/css/magnific-popup.css" />
+      <link rel="stylesheet" href="<?=base_url()?>assets/css/owl.carousel.css" />
+      <link rel="stylesheet" href="<?=base_url()?>assets/css/swiper.min.css" />
+      <link rel="stylesheet" href="<?=base_url()?>assets/css/meanmenu.css" />
+      <link rel="stylesheet" href="<?=base_url()?>assets/css/main.css" />
    </head>
 
    <body>
@@ -52,7 +52,7 @@
       <div class="tj-offcanvas-area d-lg-none">
          <div class="tj-offcanvas-header d-flex align-items-center justify-content-between">
             <div class="logo-area text-center">
-               <a href="/"><img src="assets/images/logo/white-logo.png" alt="Logo" /></a>
+               <a href="<?=base_url()?>/"><img src="assets/images/logo/white-logo.png" alt="Logo" /></a>
             </div>
             <div class="offcanvas-icon">
                <a id="canva_close" href="<?=base_url()?>#">
