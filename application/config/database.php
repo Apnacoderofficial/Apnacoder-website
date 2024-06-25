@@ -74,23 +74,23 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> '',
-	'hostname' => 'localhost',
-    'username' => 'root',
-	'password' => '',
-	'database' => 'apnacoder',
-	'dbdriver' => 'mysqli',
-	'dbprefix' => '',
-	'pconnect' => FALSE,
-	'db_debug' => (ENVIRONMENT !== 'production'),
-	'cache_on' => FALSE,
-	'cachedir' => '',
-	'char_set' => 'utf8',
-	'dbcollat' => 'utf8_general_ci',
-	'swap_pre' => '',
-	'encrypt' => FALSE,
-	'compress' => FALSE,
-	'stricton' => FALSE,
-	'failover' => array(),
-	'save_queries' => TRUE
+    'dsn'        => '',                     // DSN connection string if needed, typically empty
+    'hostname'   => '64.227.155.213',       // MySQL server host (IP address)
+    'username'   => 'root',                // MySQL username
+    'password'   => 'Root@2024',           // MySQL password
+    'database'   => 'apnacoder',           // Database name
+    'dbdriver'   => 'mysqli',              // Database driver (MySQLi)
+    'dbprefix'   => '',                    // Database table prefix if used
+    'pconnect'   => FALSE,                 // Whether to use persistent connections (FALSE recommended)
+    'db_debug'   => (ENVIRONMENT !== 'production'),  // Debug mode based on environment (disable in production)
+    'cache_on'   => FALSE,                 // Whether to enable query caching (FALSE recommended)
+    'cachedir'   => '',                    // Cache directory path if caching is enabled
+    'char_set'   => 'utf8',                // Character set for database connection
+    'dbcollat'   => 'utf8_general_ci',     // Database collation
+    'swap_pre'   => '',                    // Table prefix to be replaced during runtime
+    'encrypt'    => FALSE,                 // Whether to use encrypted connections (FALSE unless required)
+    'compress'   => FALSE,                 // Whether to compress the connection (FALSE recommended)
+    'stricton'   => FALSE,                 // Whether to enforce strict SQL mode (FALSE recommended)
+    'failover'   => array(),               // Array of failover options (empty for single server setup)
+    'save_queries' => TRUE                 // Whether to save executed queries (TRUE for debugging)
 );
